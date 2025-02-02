@@ -18,6 +18,7 @@
 
 	var inputTextArea = document.createElement('textarea');
 	inputTextArea.className = 'input-content form-control';
+	inputTextArea.setAttribute('rows', 4);
 
 	var inputDescription = document.createElement('p');
 	inputDescription.innerHTML = 'Example: Point Number,Latitude,Longitude';
@@ -45,6 +46,7 @@
 	var outputTextArea = document.createElement('textarea');
 	outputTextArea.className = 'output-content form-control';
 	outputTextArea.setAttribute('readonly', true);
+	outputTextArea.setAttribute('rows', 4);
 
 	outputBoxPanelHeading.appendChild(outputTitle);
 	outputBoxPanelBody.appendChild(outputTextArea);
