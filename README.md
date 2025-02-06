@@ -2,6 +2,8 @@
 
  Simple CSV to GPX converter written in plain JavaScript.
 
+ ![img](javascript-csv-to-gpx-converter.png)
+
 ## Usage
 
 ### Input
